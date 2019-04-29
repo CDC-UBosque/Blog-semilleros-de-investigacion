@@ -1,0 +1,26 @@
+/* ---------------------------------- header styles -----------------------------
+	------------------------------------------------------------------------------- */
+	
+.header{
+	
+	.navbar#navbar-main{
+		background: $color_brand_white;
+		padding: 0.3rem 1rem;
+		
+		.container{
+			padding: 0;
+			justify-content: center;
+			@include display-grid;
+			@include grid-parent-4-columns (1fr, 1fr, 1fr, 1fr);
+			
+			//
+			// ------------ Logo U ------------
+			.logo-u-block{
+				
+			}
+			
+		}
+		
+	}
+	
+}
